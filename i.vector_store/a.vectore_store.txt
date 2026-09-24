@@ -1,0 +1,12 @@
+# Need :-
+
+to generate embeddings
+storage of the generated vectors as databases doesnot allow operations like similarity
+to do semantic search as high computational
+
+# Feature :-
+
+storage - ram and harddrive
+similarity search
+indexing - clustering and searching
+CRUD operations - like other databases

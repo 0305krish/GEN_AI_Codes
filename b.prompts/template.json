@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "output_length",
+        "output_type",
+        "paper",
+        "question"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a research assistant.\n\nResearch Paper: {paper}\n\nUser Question:\n{question}\n\nOutput Type:\n{output_type}\n\nOutput Length:\n{output_length}\n\nInstructions:\n- Answer based on the selected research paper.\n- Keep the response accurate and research-oriented.\n- Do not make up information.\n- Structure the answer according to the requested output type.\n- Keep the response within the requested length.\n\nNow generate the answer.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
