@@ -2,6 +2,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
+from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_google_genai import ChatGoogleGenerativeAI
